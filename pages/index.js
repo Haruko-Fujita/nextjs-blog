@@ -39,12 +39,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
         <p>
-          私はフルスタックエンジニアになります/Ms.Engineerでチーム開発を経験しました/メイン言語はJavaScriptです
+          私はバックエンドが好きなエンジニアです/Ms.EngineerのBoot Campを卒業しました/TypeScriptも学びました
         </p>
       </section>
       
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
-        <h2>📝未経験エンジニアのブログ</h2>
+        <h2>📝エンジニアのブログ</h2>
         <div className={styles.grid}>
           {allPostsData.map(({id, title, date, thumbnail}) => (
             <article key={id}>
